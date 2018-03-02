@@ -3,6 +3,7 @@ package edu.eci.cosw.jpa.sample.model;
 
 
 import java.util.Date;
+import java.util.Objects;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -58,6 +59,44 @@ public class Consulta  implements java.io.Serializable {
     
     public void setResumen(String resumen) {
         this.resumen = resumen;
+    }
+
+    @Override
+    public String toString() {
+        return "Consulta{" + "idConsultas=" + idConsultas + ", fechaYHora=" + fechaYHora + ", resumen=" + resumen + '}';
+    }
+
+    @Override
+    public int hashCode() {
+        int hash = 7;
+        hash = 67 * hash + Objects.hashCode(this.idConsultas);
+        hash = 67 * hash + Objects.hashCode(this.fechaYHora);
+        hash = 67 * hash + Objects.hashCode(this.resumen);
+        return hash;
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (this == obj) {
+            return true;
+        }
+        if (obj == null) {
+            return false;
+        }
+        if (getClass() != obj.getClass()) {
+            return false;
+        }
+        final Consulta other = (Consulta) obj;
+        if (!Objects.equals(this.resumen, other.resumen)) {
+            return false;
+        }
+        if (!Objects.equals(this.idConsultas, other.idConsultas)) {
+            return false;
+        }
+        if (!Objects.equals(this.fechaYHora, other.fechaYHora)) {
+            return false;
+        }
+        return true;
     }
 
 

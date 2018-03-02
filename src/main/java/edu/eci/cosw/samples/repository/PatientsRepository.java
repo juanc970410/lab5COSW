@@ -11,13 +11,16 @@ import edu.eci.cosw.samples.services.ServicesException;
 import java.util.List;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
+import org.springframework.data.repository.query.Param;
+import org.springframework.stereotype.Service;
 
 /**
  *
  * @author 2103021
  */
+@Service
 public interface PatientsRepository extends JpaRepository<Paciente, PacienteId>{
 
-    @Query("select p from Paciente p where size(p.consultas) > ?1")
-    public List<Paciente> topPatients(int n) throws ServicesException ;
+    @Query("select p from Paciente p where size(p.consultas) > :n")
+    public List<Paciente> topPatients(@Param("n") int n) throws ServicesException ;
 }

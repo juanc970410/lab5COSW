@@ -1,4 +1,21 @@
 -------------------------------------------------------------------------------
 Test set: edu.eci.cosw.samples.SpringDataRestApiApplicationTests
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.194 sec - in edu.eci.cosw.samples.SpringDataRestApiApplicationTests
+Tests run: 4, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 22.999 sec <<< FAILURE! - in edu.eci.cosw.samples.SpringDataRestApiApplicationTests
+registerThreePatients(edu.eci.cosw.samples.SpringDataRestApiApplicationTests)  Time elapsed: 0.24 sec  <<< FAILURE!
+java.lang.AssertionError: the lists are equals
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at edu.eci.cosw.samples.SpringDataRestApiApplicationTests.registerThreePatients(SpringDataRestApiApplicationTests.java:119)
+
+getExistingPatient(edu.eci.cosw.samples.SpringDataRestApiApplicationTests)  Time elapsed: 0.043 sec  <<< FAILURE!
+java.lang.AssertionError: The expected patient and the consulted patient must be the same
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at edu.eci.cosw.samples.SpringDataRestApiApplicationTests.getExistingPatient(SpringDataRestApiApplicationTests.java:52)
+
+getNonexistentPatient(edu.eci.cosw.samples.SpringDataRestApiApplicationTests)  Time elapsed: 0.006 sec  <<< FAILURE!
+java.lang.AssertionError: Test failed
+	at org.junit.Assert.fail(Assert.java:88)
+	at edu.eci.cosw.samples.SpringDataRestApiApplicationTests.getNonexistentPatient(SpringDataRestApiApplicationTests.java:61)
+

@@ -36,7 +36,7 @@ public class PatientServiceImpl implements PatientServices{
 
     @Override
     public List<Paciente> topPatients(int n) throws ServicesException {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        return pr.topPatients(n);
     }
     
 }

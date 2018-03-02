@@ -4,6 +4,7 @@ package edu.eci.cosw.jpa.sample.model;
 
 import java.util.Date;
 import java.util.HashSet;
+import java.util.Objects;
 import java.util.Set;
 import javax.persistence.CascadeType;
 import javax.persistence.Column;
@@ -86,6 +87,48 @@ public class Paciente  implements java.io.Serializable {
     
     public void setConsultas(Set<Consulta> consultases) {
         this.consultas = consultases;
+    }
+
+    @Override
+    public String toString() {
+        return "Paciente{" + "id=" + id + ", nombre=" + nombre + ", fechaNacimiento=" + fechaNacimiento + ", consultas=" + consultas + '}';
+    }
+
+    @Override
+    public int hashCode() {
+        int hash = 7;
+        hash = 71 * hash + Objects.hashCode(this.id);
+        hash = 71 * hash + Objects.hashCode(this.nombre);
+        hash = 71 * hash + Objects.hashCode(this.fechaNacimiento);
+        hash = 71 * hash + Objects.hashCode(this.consultas);
+        return hash;
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (this == obj) {
+            return true;
+        }
+        if (obj == null) {
+            return false;
+        }
+        if (getClass() != obj.getClass()) {
+            return false;
+        }
+        final Paciente other = (Paciente) obj;
+        if (!Objects.equals(this.nombre, other.nombre)) {
+            return false;
+        }
+        if (!Objects.equals(this.id, other.id)) {
+            return false;
+        }
+        if (!Objects.equals(this.fechaNacimiento, other.fechaNacimiento)) {
+            return false;
+        }
+        if (!Objects.equals(this.consultas, other.consultas)) {
+            return false;
+        }
+        return true;
     }
 
 

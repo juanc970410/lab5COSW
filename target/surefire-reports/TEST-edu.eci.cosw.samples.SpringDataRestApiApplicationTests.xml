@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="edu.eci.cosw.samples.SpringDataRestApiApplicationTests" time="0.01" tests="2" errors="0" skipped="0" failures="0">
+<testsuite name="edu.eci.cosw.samples.SpringDataRestApiApplicationTests" time="0.618" tests="4" errors="0" skipped="0" failures="3">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
-    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-8-oracle/jre/lib/amd64"/>
-    <property name="java.vm.version" value="25.151-b12"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_71.jdk/Contents/Home/jre/lib"/>
+    <property name="java.vm.version" value="25.71-b15"/>
+    <property name="user.country.format" value="CO"/>
+    <property name="gopherProxySet" value="false"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="path.separator" value=":"/>
@@ -14,51 +16,168 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value="unknown"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="/home/local/LABINFO/2103021/Documents/Spring-Data-JPA"/>
-    <property name="java.runtime.version" value="1.8.0_151-b12"/>
-    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
-    <property name="java.endorsed.dirs" value="/usr/lib/jvm/java-8-oracle/jre/lib/endorsed"/>
-    <property name="os.arch" value="amd64"/>
-    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="user.dir" value="/Users/JuanHerrera/Documents/COSW/lab5COSW"/>
+    <property name="java.runtime.version" value="1.8.0_71-b15"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_71.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/jx/kz4t5n8s3vl3strlj2c55xxc0000gn/T/"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="os.name" value="Linux"/>
-    <property name="maven.ext.class.path" value="/usr/local/netbeans-8.2/java/maven-nblib/netbeans-eventspy.jar"/>
-    <property name="classworlds.conf" value="/usr/local/netbeans-8.2/java/maven/bin/m2.conf"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="maven.ext.class.path" value="/Applications/NetBeans/NetBeans 8.1.app/Contents/Resources/NetBeans/java/maven-nblib/netbeans-eventspy.jar"/>
+    <property name="classworlds.conf" value="/Applications/NetBeans/NetBeans 8.1.app/Contents/Resources/NetBeans/java/maven/bin/m2.conf"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
-    <property name="java.library.path" value="/usr/lib/jvm/java-8-oracle/jre/lib/amd64:/usr/lib/jvm/java-8-oracle/jre/lib/i386::/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="java.library.path" value="/Users/JuanHerrera/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="52.0"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="os.version" value="3.19.0-32-generic"/>
-    <property name="user.home" value="/home/local/LABINFO/2103021"/>
+    <property name="os.version" value="10.13.1"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="user.home" value="/Users/JuanHerrera"/>
     <property name="user.timezone" value="America/Bogota"/>
-    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
-    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
     <property name="java.specification.version" value="1.8"/>
-    <property name="user.name" value="2103021"/>
-    <property name="java.class.path" value="/usr/local/netbeans-8.2/java/maven/boot/plexus-classworlds-2.4.jar"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="JuanHerrera"/>
+    <property name="java.class.path" value="/Applications/NetBeans/NetBeans 8.1.app/Contents/Resources/NetBeans/java/maven/boot/plexus-classworlds-2.4.jar"/>
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="java.home" value="/usr/lib/jvm/java-8-oracle/jre"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -Dmaven.ext.class.path=/usr/local/netbeans-8.2/java/maven-nblib/netbeans-eventspy.jar clean install"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_71.jdk/Contents/Home/jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -Dmaven.ext.class.path=/Applications/NetBeans/NetBeans 8.1.app/Contents/Resources/NetBeans/java/maven-nblib/netbeans-eventspy.jar clean install"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="en"/>
-    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
     <property name="java.vm.info" value="mixed mode"/>
-    <property name="java.version" value="1.8.0_151"/>
-    <property name="java.ext.dirs" value="/usr/lib/jvm/java-8-oracle/jre/lib/ext:/usr/java/packages/lib/ext"/>
-    <property name="securerandom.source" value="file:/dev/./urandom"/>
-    <property name="sun.boot.class.path" value="/usr/lib/jvm/java-8-oracle/jre/lib/resources.jar:/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar:/usr/lib/jvm/java-8-oracle/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jsse.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jce.jar:/usr/lib/jvm/java-8-oracle/jre/lib/charsets.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jfr.jar:/usr/lib/jvm/java-8-oracle/jre/classes"/>
+    <property name="java.version" value="1.8.0_71"/>
+    <property name="java.ext.dirs" value="/Users/JuanHerrera/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_71.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_71.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_71.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_71.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_71.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_71.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_71.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_71.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_71.jdk/Contents/Home/jre/classes"/>
     <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="maven.home" value="/usr/local/netbeans-8.2/java/maven"/>
+    <property name="maven.home" value="/Applications/NetBeans/NetBeans 8.1.app/Contents/Resources/NetBeans/java/maven"/>
     <property name="file.separator" value="/"/>
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
     <property name="sun.cpu.endian" value="little"/>
-    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
-    <property name="sun.desktop" value="gnome"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="contextLoads" classname="edu.eci.cosw.samples.SpringDataRestApiApplicationTests" time="0.009"/>
-  <testcase name="patientLoadTest" classname="edu.eci.cosw.samples.SpringDataRestApiApplicationTests" time="0.001"/>
+  <testcase name="noPatientsWithNOrMore" classname="edu.eci.cosw.samples.SpringDataRestApiApplicationTests" time="0.329"/>
+  <testcase name="registerThreePatients" classname="edu.eci.cosw.samples.SpringDataRestApiApplicationTests" time="0.24">
+    <failure message="the lists are equals" type="java.lang.AssertionError">java.lang.AssertionError: the lists are equals
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at edu.eci.cosw.samples.SpringDataRestApiApplicationTests.registerThreePatients(SpringDataRestApiApplicationTests.java:119)
+</failure>
+    <system-out><![CDATA[2018-03-01 22:40:15.784 DEBUG 27448 --- [           main] org.hibernate.SQL                        : select paciente0_.id as id1_1_1_, paciente0_.tipo_id as tipo_id2_1_1_, paciente0_.fecha_nacimiento as fecha_na3_1_1_, paciente0_.nombre as nombre4_1_1_, consultas1_.PACIENTES_id as PACIENTE4_0_3_, consultas1_.PACIENTES_tipo_id as PACIENTE5_0_3_, consultas1_.idConsultas as idConsul1_0_3_, consultas1_.idConsultas as idConsul1_0_0_, consultas1_.fecha_y_hora as fecha_y_2_0_0_, consultas1_.resumen as resumen3_0_0_ from PACIENTES paciente0_ left outer join CONSULTAS consultas1_ on paciente0_.id=consultas1_.PACIENTES_id and paciente0_.tipo_id=consultas1_.PACIENTES_tipo_id where paciente0_.id=? and paciente0_.tipo_id=?
+Hibernate: select paciente0_.id as id1_1_1_, paciente0_.tipo_id as tipo_id2_1_1_, paciente0_.fecha_nacimiento as fecha_na3_1_1_, paciente0_.nombre as nombre4_1_1_, consultas1_.PACIENTES_id as PACIENTE4_0_3_, consultas1_.PACIENTES_tipo_id as PACIENTE5_0_3_, consultas1_.idConsultas as idConsul1_0_3_, consultas1_.idConsultas as idConsul1_0_0_, consultas1_.fecha_y_hora as fecha_y_2_0_0_, consultas1_.resumen as resumen3_0_0_ from PACIENTES paciente0_ left outer join CONSULTAS consultas1_ on paciente0_.id=consultas1_.PACIENTES_id and paciente0_.tipo_id=consultas1_.PACIENTES_tipo_id where paciente0_.id=? and paciente0_.tipo_id=?
+2018-03-01 22:40:15.785 TRACE 27448 --- [           main] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [INTEGER] - [101912]
+2018-03-01 22:40:15.786 TRACE 27448 --- [           main] o.h.type.descriptor.sql.BasicBinder      : binding parameter [2] as [VARCHAR] - [cc]
+2018-03-01 22:40:15.788 DEBUG 27448 --- [           main] org.hibernate.SQL                        : insert into PACIENTES (fecha_nacimiento, nombre, id, tipo_id) values (?, ?, ?, ?)
+Hibernate: insert into PACIENTES (fecha_nacimiento, nombre, id, tipo_id) values (?, ?, ?, ?)
+2018-03-01 22:40:15.789 TRACE 27448 --- [           main] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [DATE] - [Mon May 10 00:00:00 COT 3897]
+2018-03-01 22:40:15.790 TRACE 27448 --- [           main] o.h.type.descriptor.sql.BasicBinder      : binding parameter [2] as [VARCHAR] - [Juan]
+2018-03-01 22:40:15.791 TRACE 27448 --- [           main] o.h.type.descriptor.sql.BasicBinder      : binding parameter [3] as [INTEGER] - [101912]
+2018-03-01 22:40:15.791 TRACE 27448 --- [           main] o.h.type.descriptor.sql.BasicBinder      : binding parameter [4] as [VARCHAR] - [cc]
+2018-03-01 22:40:15.794 DEBUG 27448 --- [           main] org.hibernate.SQL                        : select paciente0_.id as id1_1_1_, paciente0_.tipo_id as tipo_id2_1_1_, paciente0_.fecha_nacimiento as fecha_na3_1_1_, paciente0_.nombre as nombre4_1_1_, consultas1_.PACIENTES_id as PACIENTE4_0_3_, consultas1_.PACIENTES_tipo_id as PACIENTE5_0_3_, consultas1_.idConsultas as idConsul1_0_3_, consultas1_.idConsultas as idConsul1_0_0_, consultas1_.fecha_y_hora as fecha_y_2_0_0_, consultas1_.resumen as resumen3_0_0_ from PACIENTES paciente0_ left outer join CONSULTAS consultas1_ on paciente0_.id=consultas1_.PACIENTES_id and paciente0_.tipo_id=consultas1_.PACIENTES_tipo_id where paciente0_.id=? and paciente0_.tipo_id=?
+Hibernate: select paciente0_.id as id1_1_1_, paciente0_.tipo_id as tipo_id2_1_1_, paciente0_.fecha_nacimiento as fecha_na3_1_1_, paciente0_.nombre as nombre4_1_1_, consultas1_.PACIENTES_id as PACIENTE4_0_3_, consultas1_.PACIENTES_tipo_id as PACIENTE5_0_3_, consultas1_.idConsultas as idConsul1_0_3_, consultas1_.idConsultas as idConsul1_0_0_, consultas1_.fecha_y_hora as fecha_y_2_0_0_, consultas1_.resumen as resumen3_0_0_ from PACIENTES paciente0_ left outer join CONSULTAS consultas1_ on paciente0_.id=consultas1_.PACIENTES_id and paciente0_.tipo_id=consultas1_.PACIENTES_tipo_id where paciente0_.id=? and paciente0_.tipo_id=?
+2018-03-01 22:40:15.794 TRACE 27448 --- [           main] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [INTEGER] - [11111]
+2018-03-01 22:40:15.795 TRACE 27448 --- [           main] o.h.type.descriptor.sql.BasicBinder      : binding parameter [2] as [VARCHAR] - [cc]
+2018-03-01 22:40:15.797 DEBUG 27448 --- [           main] org.hibernate.SQL                        : insert into PACIENTES (fecha_nacimiento, nombre, id, tipo_id) values (?, ?, ?, ?)
+Hibernate: insert into PACIENTES (fecha_nacimiento, nombre, id, tipo_id) values (?, ?, ?, ?)
+2018-03-01 22:40:15.798 TRACE 27448 --- [           main] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [DATE] - [Sat Jul 10 00:00:00 COT 3897]
+2018-03-01 22:40:15.800 TRACE 27448 --- [           main] o.h.type.descriptor.sql.BasicBinder      : binding parameter [2] as [VARCHAR] - [Jhordy]
+2018-03-01 22:40:15.802 TRACE 27448 --- [           main] o.h.type.descriptor.sql.BasicBinder      : binding parameter [3] as [INTEGER] - [11111]
+2018-03-01 22:40:15.808 TRACE 27448 --- [           main] o.h.type.descriptor.sql.BasicBinder      : binding parameter [4] as [VARCHAR] - [cc]
+2018-03-01 22:40:15.809 DEBUG 27448 --- [           main] org.hibernate.SQL                        : insert into CONSULTAS (idConsultas, fecha_y_hora, resumen, PACIENTES_id, PACIENTES_tipo_id) values (null, ?, ?, ?, ?)
+Hibernate: insert into CONSULTAS (idConsultas, fecha_y_hora, resumen, PACIENTES_id, PACIENTES_tipo_id) values (null, ?, ?, ?, ?)
+2018-03-01 22:40:15.814 TRACE 27448 --- [           main] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [TIMESTAMP] - [Thu Mar 28 00:00:00 COT 3918]
+2018-03-01 22:40:15.817 TRACE 27448 --- [           main] o.h.type.descriptor.sql.BasicBinder      : binding parameter [2] as [VARCHAR] - [Control]
+2018-03-01 22:40:15.819 TRACE 27448 --- [           main] o.h.type.descriptor.sql.BasicBinder      : binding parameter [3] as [INTEGER] - [11111]
+2018-03-01 22:40:15.821 TRACE 27448 --- [           main] o.h.type.descriptor.sql.BasicBinder      : binding parameter [4] as [VARCHAR] - [cc]
+2018-03-01 22:40:15.833 DEBUG 27448 --- [           main] org.hibernate.SQL                        : update CONSULTAS set PACIENTES_id=?, PACIENTES_tipo_id=? where idConsultas=?
+Hibernate: update CONSULTAS set PACIENTES_id=?, PACIENTES_tipo_id=? where idConsultas=?
+2018-03-01 22:40:15.834 TRACE 27448 --- [           main] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [INTEGER] - [11111]
+2018-03-01 22:40:15.835 TRACE 27448 --- [           main] o.h.type.descriptor.sql.BasicBinder      : binding parameter [2] as [VARCHAR] - [cc]
+2018-03-01 22:40:15.835 TRACE 27448 --- [           main] o.h.type.descriptor.sql.BasicBinder      : binding parameter [3] as [INTEGER] - [2]
+2018-03-01 22:40:15.855 DEBUG 27448 --- [           main] org.hibernate.SQL                        : select paciente0_.id as id1_1_1_, paciente0_.tipo_id as tipo_id2_1_1_, paciente0_.fecha_nacimiento as fecha_na3_1_1_, paciente0_.nombre as nombre4_1_1_, consultas1_.PACIENTES_id as PACIENTE4_0_3_, consultas1_.PACIENTES_tipo_id as PACIENTE5_0_3_, consultas1_.idConsultas as idConsul1_0_3_, consultas1_.idConsultas as idConsul1_0_0_, consultas1_.fecha_y_hora as fecha_y_2_0_0_, consultas1_.resumen as resumen3_0_0_ from PACIENTES paciente0_ left outer join CONSULTAS consultas1_ on paciente0_.id=consultas1_.PACIENTES_id and paciente0_.tipo_id=consultas1_.PACIENTES_tipo_id where paciente0_.id=? and paciente0_.tipo_id=?
+Hibernate: select paciente0_.id as id1_1_1_, paciente0_.tipo_id as tipo_id2_1_1_, paciente0_.fecha_nacimiento as fecha_na3_1_1_, paciente0_.nombre as nombre4_1_1_, consultas1_.PACIENTES_id as PACIENTE4_0_3_, consultas1_.PACIENTES_tipo_id as PACIENTE5_0_3_, consultas1_.idConsultas as idConsul1_0_3_, consultas1_.idConsultas as idConsul1_0_0_, consultas1_.fecha_y_hora as fecha_y_2_0_0_, consultas1_.resumen as resumen3_0_0_ from PACIENTES paciente0_ left outer join CONSULTAS consultas1_ on paciente0_.id=consultas1_.PACIENTES_id and paciente0_.tipo_id=consultas1_.PACIENTES_tipo_id where paciente0_.id=? and paciente0_.tipo_id=?
+2018-03-01 22:40:15.857 TRACE 27448 --- [           main] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [INTEGER] - [409127]
+2018-03-01 22:40:15.857 TRACE 27448 --- [           main] o.h.type.descriptor.sql.BasicBinder      : binding parameter [2] as [VARCHAR] - [cc]
+2018-03-01 22:40:15.859 DEBUG 27448 --- [           main] org.hibernate.SQL                        : insert into PACIENTES (fecha_nacimiento, nombre, id, tipo_id) values (?, ?, ?, ?)
+Hibernate: insert into PACIENTES (fecha_nacimiento, nombre, id, tipo_id) values (?, ?, ?, ?)
+2018-03-01 22:40:15.861 TRACE 27448 --- [           main] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [DATE] - [Sat Jul 10 00:00:00 COT 3897]
+2018-03-01 22:40:15.862 TRACE 27448 --- [           main] o.h.type.descriptor.sql.BasicBinder      : binding parameter [2] as [VARCHAR] - [Carlos]
+2018-03-01 22:40:15.862 TRACE 27448 --- [           main] o.h.type.descriptor.sql.BasicBinder      : binding parameter [3] as [INTEGER] - [409127]
+2018-03-01 22:40:15.863 TRACE 27448 --- [           main] o.h.type.descriptor.sql.BasicBinder      : binding parameter [4] as [VARCHAR] - [cc]
+2018-03-01 22:40:15.867 DEBUG 27448 --- [           main] org.hibernate.SQL                        : insert into CONSULTAS (idConsultas, fecha_y_hora, resumen, PACIENTES_id, PACIENTES_tipo_id) values (null, ?, ?, ?, ?)
+Hibernate: insert into CONSULTAS (idConsultas, fecha_y_hora, resumen, PACIENTES_id, PACIENTES_tipo_id) values (null, ?, ?, ?, ?)
+2018-03-01 22:40:15.869 TRACE 27448 --- [           main] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [TIMESTAMP] - [Thu Mar 28 00:00:00 COT 3918]
+2018-03-01 22:40:15.870 TRACE 27448 --- [           main] o.h.type.descriptor.sql.BasicBinder      : binding parameter [2] as [VARCHAR] - [Control for broken arm]
+2018-03-01 22:40:15.870 TRACE 27448 --- [           main] o.h.type.descriptor.sql.BasicBinder      : binding parameter [3] as [INTEGER] - [409127]
+2018-03-01 22:40:15.871 TRACE 27448 --- [           main] o.h.type.descriptor.sql.BasicBinder      : binding parameter [4] as [VARCHAR] - [cc]
+2018-03-01 22:40:15.873 DEBUG 27448 --- [           main] org.hibernate.SQL                        : insert into CONSULTAS (idConsultas, fecha_y_hora, resumen, PACIENTES_id, PACIENTES_tipo_id) values (null, ?, ?, ?, ?)
+Hibernate: insert into CONSULTAS (idConsultas, fecha_y_hora, resumen, PACIENTES_id, PACIENTES_tipo_id) values (null, ?, ?, ?, ?)
+2018-03-01 22:40:15.874 TRACE 27448 --- [           main] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [TIMESTAMP] - [Thu Mar 28 00:00:00 COT 3918]
+2018-03-01 22:40:15.874 TRACE 27448 --- [           main] o.h.type.descriptor.sql.BasicBinder      : binding parameter [2] as [VARCHAR] - [Control for flu]
+2018-03-01 22:40:15.875 TRACE 27448 --- [           main] o.h.type.descriptor.sql.BasicBinder      : binding parameter [3] as [INTEGER] - [409127]
+2018-03-01 22:40:15.876 TRACE 27448 --- [           main] o.h.type.descriptor.sql.BasicBinder      : binding parameter [4] as [VARCHAR] - [cc]
+2018-03-01 22:40:15.878 DEBUG 27448 --- [           main] org.hibernate.SQL                        : update CONSULTAS set PACIENTES_id=?, PACIENTES_tipo_id=? where idConsultas=?
+Hibernate: update CONSULTAS set PACIENTES_id=?, PACIENTES_tipo_id=? where idConsultas=?
+2018-03-01 22:40:15.882 TRACE 27448 --- [           main] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [INTEGER] - [409127]
+2018-03-01 22:40:15.882 TRACE 27448 --- [           main] o.h.type.descriptor.sql.BasicBinder      : binding parameter [2] as [VARCHAR] - [cc]
+2018-03-01 22:40:15.883 TRACE 27448 --- [           main] o.h.type.descriptor.sql.BasicBinder      : binding parameter [3] as [INTEGER] - [4]
+2018-03-01 22:40:15.884 DEBUG 27448 --- [           main] org.hibernate.SQL                        : update CONSULTAS set PACIENTES_id=?, PACIENTES_tipo_id=? where idConsultas=?
+Hibernate: update CONSULTAS set PACIENTES_id=?, PACIENTES_tipo_id=? where idConsultas=?
+2018-03-01 22:40:15.885 TRACE 27448 --- [           main] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [INTEGER] - [409127]
+2018-03-01 22:40:15.885 TRACE 27448 --- [           main] o.h.type.descriptor.sql.BasicBinder      : binding parameter [2] as [VARCHAR] - [cc]
+2018-03-01 22:40:15.886 TRACE 27448 --- [           main] o.h.type.descriptor.sql.BasicBinder      : binding parameter [3] as [INTEGER] - [3]
+2018-03-01 22:40:15.889 DEBUG 27448 --- [           main] org.hibernate.SQL                        : select paciente0_.id as id1_1_, paciente0_.tipo_id as tipo_id2_1_, paciente0_.fecha_nacimiento as fecha_na3_1_, paciente0_.nombre as nombre4_1_ from PACIENTES paciente0_ where (select count(consultas1_.PACIENTES_id) from CONSULTAS consultas1_ where paciente0_.id=consultas1_.PACIENTES_id and paciente0_.tipo_id=consultas1_.PACIENTES_tipo_id)>?
+Hibernate: select paciente0_.id as id1_1_, paciente0_.tipo_id as tipo_id2_1_, paciente0_.fecha_nacimiento as fecha_na3_1_, paciente0_.nombre as nombre4_1_ from PACIENTES paciente0_ where (select count(consultas1_.PACIENTES_id) from CONSULTAS consultas1_ where paciente0_.id=consultas1_.PACIENTES_id and paciente0_.tipo_id=consultas1_.PACIENTES_tipo_id)>?
+2018-03-01 22:40:15.892 TRACE 27448 --- [           main] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [INTEGER] - [1]
+2018-03-01 22:40:15.904 DEBUG 27448 --- [           main] org.hibernate.SQL                        : select consultas0_.PACIENTES_id as PACIENTE4_0_0_, consultas0_.PACIENTES_tipo_id as PACIENTE5_0_0_, consultas0_.idConsultas as idConsul1_0_0_, consultas0_.idConsultas as idConsul1_0_1_, consultas0_.fecha_y_hora as fecha_y_2_0_1_, consultas0_.resumen as resumen3_0_1_ from CONSULTAS consultas0_ where consultas0_.PACIENTES_id=? and consultas0_.PACIENTES_tipo_id=?
+Hibernate: select consultas0_.PACIENTES_id as PACIENTE4_0_0_, consultas0_.PACIENTES_tipo_id as PACIENTE5_0_0_, consultas0_.idConsultas as idConsul1_0_0_, consultas0_.idConsultas as idConsul1_0_1_, consultas0_.fecha_y_hora as fecha_y_2_0_1_, consultas0_.resumen as resumen3_0_1_ from CONSULTAS consultas0_ where consultas0_.PACIENTES_id=? and consultas0_.PACIENTES_tipo_id=?
+2018-03-01 22:40:15.905 TRACE 27448 --- [           main] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [INTEGER] - [409127]
+2018-03-01 22:40:15.910 TRACE 27448 --- [           main] o.h.type.descriptor.sql.BasicBinder      : binding parameter [2] as [VARCHAR] - [cc]
+[Paciente{id=PacienteId{id=409127, tipoId=cc}, nombre=Carlos, fechaNacimiento=3897-07-10, consultas=[Consulta{idConsultas=4, fechaYHora=3918-03-28 00:00:00.0, resumen=Control for flu}, Consulta{idConsultas=3, fechaYHora=3918-03-28 00:00:00.0, resumen=Control for broken arm}]}]old list
+[Paciente{id=PacienteId{id=11111, tipoId=cc}, nombre=Jhordy, fechaNacimiento=Sat Jul 10 00:00:00 COT 3897, consultas=[Consulta{idConsultas=null, fechaYHora=Thu Mar 28 00:00:00 COT 3918, resumen=Control}]}, Paciente{id=PacienteId{id=409127, tipoId=cc}, nombre=Carlos, fechaNacimiento=Sat Jul 10 00:00:00 COT 3897, consultas=[Consulta{idConsultas=null, fechaYHora=Thu Mar 28 00:00:00 COT 3918, resumen=Control for broken arm}, Consulta{idConsultas=null, fechaYHora=Thu Mar 28 00:00:00 COT 3918, resumen=Control for flu}]}]new list
+]]></system-out>
+  </testcase>
+  <testcase name="getExistingPatient" classname="edu.eci.cosw.samples.SpringDataRestApiApplicationTests" time="0.043">
+    <failure message="The expected patient and the consulted patient must be the same" type="java.lang.AssertionError">java.lang.AssertionError: The expected patient and the consulted patient must be the same
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at edu.eci.cosw.samples.SpringDataRestApiApplicationTests.getExistingPatient(SpringDataRestApiApplicationTests.java:52)
+</failure>
+    <system-out><![CDATA[2018-03-01 22:40:16.024 DEBUG 27448 --- [           main] org.hibernate.SQL                        : select paciente0_.id as id1_1_1_, paciente0_.tipo_id as tipo_id2_1_1_, paciente0_.fecha_nacimiento as fecha_na3_1_1_, paciente0_.nombre as nombre4_1_1_, consultas1_.PACIENTES_id as PACIENTE4_0_3_, consultas1_.PACIENTES_tipo_id as PACIENTE5_0_3_, consultas1_.idConsultas as idConsul1_0_3_, consultas1_.idConsultas as idConsul1_0_0_, consultas1_.fecha_y_hora as fecha_y_2_0_0_, consultas1_.resumen as resumen3_0_0_ from PACIENTES paciente0_ left outer join CONSULTAS consultas1_ on paciente0_.id=consultas1_.PACIENTES_id and paciente0_.tipo_id=consultas1_.PACIENTES_tipo_id where paciente0_.id=? and paciente0_.tipo_id=?
+Hibernate: select paciente0_.id as id1_1_1_, paciente0_.tipo_id as tipo_id2_1_1_, paciente0_.fecha_nacimiento as fecha_na3_1_1_, paciente0_.nombre as nombre4_1_1_, consultas1_.PACIENTES_id as PACIENTE4_0_3_, consultas1_.PACIENTES_tipo_id as PACIENTE5_0_3_, consultas1_.idConsultas as idConsul1_0_3_, consultas1_.idConsultas as idConsul1_0_0_, consultas1_.fecha_y_hora as fecha_y_2_0_0_, consultas1_.resumen as resumen3_0_0_ from PACIENTES paciente0_ left outer join CONSULTAS consultas1_ on paciente0_.id=consultas1_.PACIENTES_id and paciente0_.tipo_id=consultas1_.PACIENTES_tipo_id where paciente0_.id=? and paciente0_.tipo_id=?
+2018-03-01 22:40:16.027 TRACE 27448 --- [           main] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [INTEGER] - [101912]
+2018-03-01 22:40:16.028 TRACE 27448 --- [           main] o.h.type.descriptor.sql.BasicBinder      : binding parameter [2] as [VARCHAR] - [cc]
+2018-03-01 22:40:16.031 DEBUG 27448 --- [           main] org.hibernate.SQL                        : insert into CONSULTAS (idConsultas, fecha_y_hora, resumen, PACIENTES_id, PACIENTES_tipo_id) values (null, ?, ?, ?, ?)
+Hibernate: insert into CONSULTAS (idConsultas, fecha_y_hora, resumen, PACIENTES_id, PACIENTES_tipo_id) values (null, ?, ?, ?, ?)
+2018-03-01 22:40:16.031 TRACE 27448 --- [           main] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [TIMESTAMP] - [Thu Mar 28 00:00:00 COT 3918]
+2018-03-01 22:40:16.032 TRACE 27448 --- [           main] o.h.type.descriptor.sql.BasicBinder      : binding parameter [2] as [VARCHAR] - [Control]
+2018-03-01 22:40:16.032 TRACE 27448 --- [           main] o.h.type.descriptor.sql.BasicBinder      : binding parameter [3] as [INTEGER] - [101912]
+2018-03-01 22:40:16.032 TRACE 27448 --- [           main] o.h.type.descriptor.sql.BasicBinder      : binding parameter [4] as [VARCHAR] - [cc]
+2018-03-01 22:40:16.036 DEBUG 27448 --- [           main] org.hibernate.SQL                        : update CONSULTAS set PACIENTES_id=?, PACIENTES_tipo_id=? where idConsultas=?
+Hibernate: update CONSULTAS set PACIENTES_id=?, PACIENTES_tipo_id=? where idConsultas=?
+2018-03-01 22:40:16.037 TRACE 27448 --- [           main] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [INTEGER] - [101912]
+2018-03-01 22:40:16.037 TRACE 27448 --- [           main] o.h.type.descriptor.sql.BasicBinder      : binding parameter [2] as [VARCHAR] - [cc]
+2018-03-01 22:40:16.038 TRACE 27448 --- [           main] o.h.type.descriptor.sql.BasicBinder      : binding parameter [3] as [INTEGER] - [5]
+2018-03-01 22:40:16.050 DEBUG 27448 --- [           main] org.hibernate.SQL                        : select paciente0_.id as id1_1_0_, paciente0_.tipo_id as tipo_id2_1_0_, paciente0_.fecha_nacimiento as fecha_na3_1_0_, paciente0_.nombre as nombre4_1_0_ from PACIENTES paciente0_ where paciente0_.id=? and paciente0_.tipo_id=?
+Hibernate: select paciente0_.id as id1_1_0_, paciente0_.tipo_id as tipo_id2_1_0_, paciente0_.fecha_nacimiento as fecha_na3_1_0_, paciente0_.nombre as nombre4_1_0_ from PACIENTES paciente0_ where paciente0_.id=? and paciente0_.tipo_id=?
+2018-03-01 22:40:16.051 TRACE 27448 --- [           main] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [INTEGER] - [101912]
+2018-03-01 22:40:16.051 TRACE 27448 --- [           main] o.h.type.descriptor.sql.BasicBinder      : binding parameter [2] as [VARCHAR] - [cc]
+2018-03-01 22:40:16.056 DEBUG 27448 --- [           main] org.hibernate.SQL                        : select consultas0_.PACIENTES_id as PACIENTE4_0_0_, consultas0_.PACIENTES_tipo_id as PACIENTE5_0_0_, consultas0_.idConsultas as idConsul1_0_0_, consultas0_.idConsultas as idConsul1_0_1_, consultas0_.fecha_y_hora as fecha_y_2_0_1_, consultas0_.resumen as resumen3_0_1_ from CONSULTAS consultas0_ where consultas0_.PACIENTES_id=? and consultas0_.PACIENTES_tipo_id=?
+Hibernate: select consultas0_.PACIENTES_id as PACIENTE4_0_0_, consultas0_.PACIENTES_tipo_id as PACIENTE5_0_0_, consultas0_.idConsultas as idConsul1_0_0_, consultas0_.idConsultas as idConsul1_0_1_, consultas0_.fecha_y_hora as fecha_y_2_0_1_, consultas0_.resumen as resumen3_0_1_ from CONSULTAS consultas0_ where consultas0_.PACIENTES_id=? and consultas0_.PACIENTES_tipo_id=?
+2018-03-01 22:40:16.057 TRACE 27448 --- [           main] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [INTEGER] - [101912]
+2018-03-01 22:40:16.057 TRACE 27448 --- [           main] o.h.type.descriptor.sql.BasicBinder      : binding parameter [2] as [VARCHAR] - [cc]
+]]></system-out>
+  </testcase>
+  <testcase name="getNonexistentPatient" classname="edu.eci.cosw.samples.SpringDataRestApiApplicationTests" time="0.006">
+    <failure message="Test failed" type="java.lang.AssertionError">java.lang.AssertionError: Test failed
+	at org.junit.Assert.fail(Assert.java:88)
+	at edu.eci.cosw.samples.SpringDataRestApiApplicationTests.getNonexistentPatient(SpringDataRestApiApplicationTests.java:61)
+</failure>
+  </testcase>
 </testsuite>
